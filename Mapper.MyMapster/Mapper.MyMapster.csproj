@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="7.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mapper.Core\Mapper.Core.csproj" />
+    <ProjectReference Include="..\Mapper.Dto\Mapper.Dto.csproj" />
+    <ProjectReference Include="..\Mapper.Entity\Mapper.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mapper.Core\Mapper.Core.csproj" />
+    <ProjectReference Include="..\Mapper.Dto\Mapper.Dto.csproj" />
+    <ProjectReference Include="..\Mapper.MyAutoMapper\Mapper.MyAutoMapper.csproj" />
+    <ProjectReference Include="..\Mapper.MyMapster\Mapper.MyMapster.csproj" />
+  </ItemGroup>
+
+</Project>
